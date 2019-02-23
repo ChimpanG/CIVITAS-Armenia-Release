@@ -7,6 +7,9 @@
     <Teaser>Adds Armenia as a new civilization.</Teaser>
     <Authors>ChimpanG, SeelingCat</Authors>
   </Properties>
+  <Dependencies>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="Expansion: Gathering Storm" />
+  </Dependencies>
   <ActionCriteria>
     <Criteria id="XP1">
       <RuleSetInUse>RULESET_EXPANSION_1</RuleSetInUse>
@@ -75,25 +78,6 @@
       </Properties>
       <File>Core/Armenia_Colors.sql</File>
     </UpdateColors>
-    <UpdateDatabase id="Armenia_Validation">
-      <Properties>
-        <LoadOrder>1</LoadOrder>
-      </Properties>
-      <File>Core/Armenia_Validation.sql</File>
-    </UpdateDatabase>
-    <UpdateDatabase id="Armenia_XP1_DB">
-      <Properties>
-        <LoadOrder>105</LoadOrder>
-      </Properties>
-      <File>Core/Armenia_UA_XP1.sql</File>
-    </UpdateDatabase>
-    <UpdateDatabase id="Armenia_XP2_DB">
-      <Properties>
-        <LoadOrder>106</LoadOrder>
-      </Properties>
-      <Criteria>XP2</Criteria>
-      <File>Core/Armenia_Civilization_XP2.sql</File>
-    </UpdateDatabase>
   </InGameActions>
   <Files>
     <File>ArtDefs/Civilizations.artdef</File>
@@ -105,17 +89,14 @@
     <File>ArtDefs/Units.artdef</File>
     <File>CIVITAS Armenia.dep</File>
     <File>Core/Armenia_Civilization.sql</File>
-    <File>Core/Armenia_Civilization_XP2.sql</File>
     <File>Core/Armenia_Colors.sql</File>
     <File>Core/Armenia_Icons.sql</File>
     <File>Core/Armenia_Localisation.sql</File>
     <File>Core/Armenia_ModSupport.sql</File>
     <File>Core/Armenia_Scripts.lua</File>
     <File>Core/Armenia_UA.sql</File>
-    <File>Core/Armenia_UA_XP1.sql</File>
     <File>Core/Armenia_UI.sql</File>
     <File>Core/Armenia_UU.sql</File>
-    <File>Core/Armenia_Validation.sql</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_ReactA</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_CavalryHorse_SpawnA</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/ANIMATION_Cavalry_ReactA</File>

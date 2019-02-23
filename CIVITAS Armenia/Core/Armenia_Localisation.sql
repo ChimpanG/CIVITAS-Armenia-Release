@@ -24,8 +24,6 @@ VALUES
 
 	("en_US", "LOC_TRAIT_CIVILIZATION_CVS_ARMENIA_UA_NAME",  "Stone Curtain"	),
 	("en_US", "LOC_TRAIT_CIVILIZATION_CVS_ARMENIA_UA_DESCRIPTION",	
-	"Cities receive +2 [ICON_RANGED] Ranged Strength and +2 [ICON_STRENGTH] Outer Defense Strength for each Mountain within the city's borders."	),
-	("en_US", "LOC_TRAIT_CIVILIZATION_CVS_ARMENIA_UA_XP1_DESCRIPTION",	
 	"Alliance points accumulate 25% faster. Cities receive +2 [ICON_RANGED] Ranged Strength and +2 [ICON_STRENGTH] Outer Defense Strength for each Mountain within the city's borders."	),
 
 -----------------------------------------------
